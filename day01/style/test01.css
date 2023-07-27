@@ -1,0 +1,27 @@
+nav ul li a {
+  display: inline-block;
+  padding: 5px, 10px;
+  background-color: purple;
+  color: gray;
+  margin-right: 10px;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+ul li {
+  display: inline-block;
+  list-style: circle;
+  color: green;
+  padding: 200px;
+  shape-margin: 1%;
+}
+
+#code-ditor {
+  color: rebeccapurple;
+}
+
+address ol li {
+  color: yellow;
+  list-style-type: lower-roman;
+  text-decoration-color: cadetblue;
+}
