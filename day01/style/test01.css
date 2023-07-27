@@ -25,3 +25,15 @@ address ol li {
   list-style-type: lower-roman;
   text-decoration-color: cadetblue;
 }
+
+#thisgreen {
+  background-color: aquamarine;
+  border-radius: 10;
+  padding: 100;
+}
+
+#thisred {
+  background-color: red;
+  border-radius: 10;
+  padding: 100;
+}
