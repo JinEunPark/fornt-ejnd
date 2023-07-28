@@ -1,0 +1,10 @@
+span {
+  color: green;
+}
+ul li {
+  list-style-type: none;
+}
+
+label {
+  text-align: right;
+}
