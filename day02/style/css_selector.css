@@ -1,0 +1,41 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+  margin-right: 5px;
+}
+
+div[title~="hello"] {
+  font-weight: bolder;
+  color: #092a1d;
+  border: 3px dashed rgb(217, 56, 56);
+}
+
+a [href$=".com"] {
+  color: red;
+}
+
+a[href^="google"] {
+  border-width: 3px;
+}
+
+a [href~="naver"] {
+  background-color: green;
+}
+
+a[href~="google"] {
+}
+
+div[title~="h1"] {
+  color: brown;
+  font-szie: 12px;
+}
+
+div[class="clear"] {
+  display: block;
+}
+
+a {
+  display: block;
+}

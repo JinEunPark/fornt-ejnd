@@ -1,82 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style/form3.css" />
-  </head>
-  <body>
-    <header>
-      <h1>여름방학 특강 신청</h1>
-    </header>
-    <div>
-      <fieldset>
-        <legend>수강신청</legend>
-        <label for="studentcode">학번</label>
-        <input id="studentcode" type="text" />
-        <label for="name">이름</label>
-        <input id="name" type="text" /><br />
 
-        <label for="department">학과</label>
-        <input id="department" type="text" />
-      </fieldset>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/form3.css">
+</head>
 
-      <fieldset>
-        <legend>수강 과목을 선택하세요</legend>
+<body>
+  <header>
+    <h1>여름방학 특강 신청</h1>
+  </header>
+  <div>
+    <fieldset>
+      <legend>수강신청</legend>
+      <label for="studentcode">학번</label>
+      <input id="studentcode" type="text">
+      <label for="name">이름</label>
+      <input id="name" type="text"><br>
 
-        <ul>
-          <li>
-            <label class="outlable" for="color"><span>선호 색상</span></label>
-            <input id="color" type="color" />
-          </li>
-        </ul>
+      <label for="department">학과</label>
+      <input id="department" type="text">
+    </fieldset>
 
-        <ul>
-          <li>
-            <label><span>신청과목(회화)</span></label>
+    <fieldset>
+      <legend>수강 과목을 선택하세요</legend>
 
-            <label for="initial">영어회화(초급)</label>
-            <input id="initial" type="radio" value="english" name="english" />
 
-            <label for="initial2">영어회화(중급)</label>
-            <input id="initial2" type="radio" value="english" name="english" />
+      <ul>
+        <li>
+          <label class="outlable" for="color"><span>선호 색상</span></label>
+          <input id="color" type="color">
+        </li>
+      </ul>
 
-            <label for="initial3">영어회화(고급)</label>
-            <input id="initial3" type="radio" value="english" name="english" />
-          </li>
-        </ul>
+      <ul>
+        <li>
+          <label><span>신청과목(회화)</span></label>
 
-        <ul>
-          <li>
-            <label><span>신청과목(자격)</span></label>
+          <label for="initial">영어회화(초급)</label>
+          <input id="initial" type="radio" value="english" name="english">
 
-            <label for="toeic">TOEIC</label>
-            <input id="toeic" type="radio" value="english" name="english" />
+          <label for="initial2">영어회화(중급)</label>
+          <input id="initial2" type="radio" value="english" name="english">
 
-            <label for="toelf">TOElF</label>
-            <input id="toelf" type="radio" value="english" name="english" />
+          <label for="initial3">영어회화(고급)</label>
+          <input id="initial3" type="radio" value="english" name="english">
+        </li>
+      </ul>
 
-            <label for="opic">OPIC</label>
-            <input id="opic" type="radio" value="english" name="english" />
-          </li>
-        </ul>
+      <ul>
+        <li>
+          <label><span>신청과목(자격)</span></label>
 
-        <ul>
-          <li>
-            <label for="interest" class="outlable"><span>관심분야</span></label>
-            <input type="text" id="interest" />
-          </li>
-        </ul>
-      </fieldset>
+          <label for="toeic">TOEIC</label>
+          <input id="toeic" type="radio" value="english" name="english">
 
-      <fieldset>
-        <legend>강의 시간을 선택하세요</legend>
-        <label for="start" class="outlable"><span>개강 주</span></label>
-        <input id="start" type="date" name="start" /><br />
-        <label for="time" class="outlable"><span>강의 시간</span></label>
-        <input type="time" name="lecturetime" id="time" />
-      </fieldset>
-    </div>
-  </body>
+          <label for="toelf">TOElF</label>
+          <input id="toelf" type="radio" value="english" name="english">
+
+          <label for="opic">OPIC</label>
+          <input id="opic" type="radio" value="english" name="english">
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <label for="interest" class="outlable"><span>관심분야</span></label>
+          <input type="text" id="interest">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>강의 시간을 선택하세요</legend>
+      <label for="start" class="outlable"><span>개강 주</span></label>
+      <input id="start" type="date" name="start"><br>
+      <label for="time" class="outlable"><span>강의 시간</span></label>
+      <input type="time" name="lecturetime" id="time">
+    </fieldset>
+  </div>
+</body>
+
 </html>
