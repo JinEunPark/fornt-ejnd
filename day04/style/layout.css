@@ -1,0 +1,61 @@
+#wrapper {
+  /*초기설정 외울것*/
+  width: 85vw;
+  margin: 0 auto;
+}
+
+header,
+aside,
+section,
+footer {
+  border: 1px solid silver;
+}
+
+header h1 {
+  padding: 1vh 10vw;
+}
+
+main {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+aside ul {
+  list-style: none;
+}
+aside ul li {
+  padding: 0.8vh;
+}
+aside ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  width: 55%;
+}
+
+section h2 {
+  position: relative;
+  left: 2vw;
+}
+
+section p {
+  position: relative;
+  left: 4vw;
+}
+
+aside {
+  width: 20%;
+}
+
+footer {
+  margin-top: 2vh;
+}
+
+aside h3 {
+  position: relative;
+  left: 2vw;
+}

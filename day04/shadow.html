@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div {
+            height: 200px;
+            width: 200px;
+            color: white;
+            background-color: darkblue;
+            box-shadow: 10px 10px 50px -1px white inset;
+            padding: 100px
+        } */
+        /* div {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            border: 1px solid pink;
+            background-color: hotpink;
+        }
+
+
+        div:hover {
+            transform: rotate(45deg);
+        } */
+
+        /* div {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+
+        }
+
+        #trans {
+            transition-property: background-color, border-radius;
+            transition-duration: 3s, 5s;
+
+        }
+
+
+        #trans:hover {
+            background-color: red;
+            border-radius: 50px;
+
+        } */
+
+        div {
+            width: 200px;
+            height: 200px;
+        }
+
+
+        div.box {
+            animation-name: myani;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+        }
+
+        @keyframes myani {
+            0% {
+                background-color: aquamarine;
+                border-radius: 0;
+            }
+
+            100% {
+                background-color: hotpink;
+                border-radius: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        asdfasdf
+    </div>
+</body>
+
+</html>
