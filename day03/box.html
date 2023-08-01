@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div {
+            display: inline-block;
+            width: 100px;
+            height: 200px;
+            text-align: center;
+
+            background-color: aqua;
+            padding: auto;
+            margin: 100px;
+            border: 2px solid;
+        } */
+
+
+
+        /* div {
+            display: inline-block;
+            border-radius: 200px;
+            border: 2px solid;
+            padding: 100px 150px;
+            margin-right: 200px;
+            background-color: darkblue;
+        } */
+
+        /* div>a {
+            display: inline-block;
+            border: 2px solid;
+            border-color: orange;
+            border-radius: 100px/500px;
+            padding: 100px 200px;
+            margin: 200px;
+            background-color: red;
+            font-size: 200px;
+            box-shadow: 10px 10px 5px 5px #667;
+        } */
+
+
+
+        div {
+            display: inline-flex;
+            border: 2px solid;
+            padding: 30px;
+        }
+
+        /*
+        flex directions 에 지명한 방향이 main 방향이다 따라서 main directions 다른 방향은 cross directions
+        */
+
+
+        .container {
+            /* justify-content: space-between;
+             */
+            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container>div {
+            margin: 10px;
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div><a href="">hello</a></div>
+    <div>hello</div>
+    <div>box</div>
+    <div>box</div> -->
+    <div class="container">
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+        <div>div4</div>
+        <div>div5</div>
+        <div>div6</div>
+        <div>div7</div>
+        <div>div8</div>
+        <div>div9</div>
+        <div>div10</div>
+    </div>
+
+
+</body>
+
+</html>
