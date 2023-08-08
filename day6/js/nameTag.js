@@ -53,3 +53,58 @@ const m4 = {irum:'hong', age:21, addr:'seoul'};
 console.log(m3['age']);
 console.log(m4['age']);
 console.log(m3['age']);
+
+class Student{
+    constructor(studentId, irum, age)
+    {
+        this.studentId = studentId;
+        this.irum = irum;
+        this.age = age;
+        this.fn = function (){
+            console.log("this is method");
+            console.log(this);
+        }
+    }
+
+}
+
+
+let s1 = new Student(1,'jin',30);
+let s2 = new Student(2,'ha',25);
+console.log(s1,s2);
+s1.fn();
+
+s2.sayHello=()=>{
+    console.log(this);
+}
+console.log(s2);
+
+delete s2.sayHello;
+
+console.log(s2);
+s2.add =()=>{
+    console.log("a");
+}
+console.log(s2)
+
+s2['hi hello']='morning';
+console.log(s2)
+
+
+let e = 100;
+const user={
+    name:'user',
+    [e]:20
+}
+
+console.log(user);
+
+for(i in s2){
+    let c = 0;
+    console.log(i + '---------'+s2[i])
+}
+
+
+/*
+
+* */
