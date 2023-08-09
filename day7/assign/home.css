@@ -1,0 +1,19 @@
+.scroll_box{
+    display: inline-block;
+    overflow: scroll;
+    width: 350px;
+    height: 350px;
+    border: 1px solid silver;
+}
+#wrap2{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    height: 30%;
+}
+#multi{
+    display: inline-block;
+}
