@@ -36,7 +36,12 @@ let input_value = ()=>{
     new_li.addEventListener('click', ()=>{
         console.log(new_li);
         move_list.push(new_li);
-        new_li.setAttribute('background-color','silver');
+        new_li.style.backgroundColor="silver";
+    });
+
+    new_li.addEventListener('dblclick', ()=>{
+        console.log('double!!');
+       new_li.remove();
     });
     input.value='';
 
@@ -53,7 +58,8 @@ form.addEventListener("keypress", function(event) {
 
 right_button.addEventListener('click',()=>{
     for(let child of move_list){
-        console.log('right!')
+        console.log('right!');
+        child.style.backgroundColor="white";
         scroll_box2.appendChild(child);
         // scroll_box1.removeChild(child);
     }
@@ -63,6 +69,7 @@ right_button.addEventListener('click',()=>{
 left_button.addEventListener('click',()=>{
     for(let child of move_list){
         console.log('left');
+        child.style.backgroundColor="white";
         scroll_box1.appendChild(child);
         // scroll_box2.removeChild(child);
     }

@@ -1,0 +1,14 @@
+/* 아코디언 스타일 */
+.accordion {
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
