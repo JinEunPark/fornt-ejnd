@@ -7,21 +7,30 @@
 		<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
 		<link rel = "stylesheet" href = "home.css">
 		<title>Document</title>
+		<script defer src="home.js"></script>
 	</head>
 	<body>
-		<div id="wrap1">
-			<label for = "multi">이름 추가</label>
-			<input id='multi' type = "text">
-			<button type="button" >추가!</button>
-		</div>
+		<form id="name_form">
+			<div id="wrap1">
+				<label for = "multi">이름 추가</label>
+				<input id='multi' type = "text">
+				<button id="input_button" type="button" >추가!</button>
+			</div>
+		</form>
 		
 		<div id="wrap2">
-			<div id="scroll_box_1" class="scroll_box"></div>
-			<button type="button" id="move_right">=>></button>
-			<button type="button" id="move_left"><<=</button>
-			<div id="scroll_box_2" class="scroll_box"></div>
-		</div>
-
-
+				<ul id="scroll_box_1" class="scroll_box">
+				
+				</ul>
+				<div id="button_wrap">
+					<button class="move_button" type="button" id="move_right">=>></button>
+					<button class="move_button" type="button" id="move_left"><<=</button>
+				</div>
+				
+				<ul id="scroll_box_2" class="scroll_box">
+				
+				
+				</ul>
+			</div>
 	</body>
 </html>

@@ -9,11 +9,24 @@
 		<script defer src = "dom1.js"></script>
 		<link rel = "stylesheet" href = "dom1.css">
 		<style>
+			table td, td{
+				border:1px solid black;
+				padding: 0.5vw;
+				text-align: center;
+			}
+			
+			table{
+				border-collapse: collapse;
+			}
+		
 			.red{
 				color: red;
 			}
 			.green{
 				color: green;
+			}
+			.aaa {
+				background-color: yellow;
 			}
 		</style>
 	</head>
@@ -46,12 +59,41 @@
 <!--	-->
 		
 		<ul>
-			<li class = "red">menu1</li>
-			<li class = "red">menu1</li>
-			<li class = "red">menu3</li>
-			<li class = "red">menu4</li>
-			<li class = "red">menu5</li>
+			<li id = "1m" class = "li_tag">menu1</li>
+			<li id = "2m" class = "li_tag">menu2</li>
+			<li id = "3m" class = "li_tag">menu3</li>
+			<li id = "4m" class = "li_tag">menu4</li>
+			<li id = "5m" class = "li_tag">menu5</li>
 		</ul>
+		
+		<ul id="aaa"></ul>
+		
+		<table id="table1">
+			<thead>
+				<tr>
+					<td>이름</td>
+					<td>나이</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>박진은</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>박진은</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>박진은</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>박진은</td>
+					<td>25</td>
+				</tr>
+			</tbody>
+		</table>
 	
 	</body>
 </html>

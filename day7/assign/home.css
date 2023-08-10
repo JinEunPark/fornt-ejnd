@@ -1,19 +1,56 @@
 .scroll_box{
-    display: inline-block;
+    display: block;
     overflow: scroll;
     width: 350px;
     height: 350px;
     border: 1px solid silver;
+    list-style:none;
+    margin: 0;
+    padding:0;
 }
+#wrap1{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#button_wrap{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 #wrap2{
     margin-top: 3vh;
+    height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    border: white;
 }
 
 button{
-    height: 30%;
+    height: 10%;
 }
+.move_button{
+    margin-bottom:20%;
+    width: 50%;
+}
+
 #multi{
     display: inline-block;
+}
+.names{
+    width: 100%;
+}
+
+.names:hover{
+    background-color:silver;
+    transition: background-color 0.3s ease-in-out;
 }
